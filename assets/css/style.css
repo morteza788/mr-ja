@@ -549,6 +549,9 @@ background: linear-gradient(140deg, rgba(245,17,17,1) 0%, rgba(70,5,5,1) 24%, rg
 
  footer{
      background-color: #202020;
+     padding: 20px;
+     margin-top: 200px;
+     position: relative;
  }
 
 
@@ -577,6 +580,37 @@ background: linear-gradient(140deg, rgba(245,17,17,1) 0%, rgba(70,5,5,1) 24%, rg
     color: #ccc;
     font-size: 10px;
 }
+
+
+.custom-row-footer
+{
+    position: absolute;
+    bottom: 77%;
+    right: 25%;
+}
+
+.custom-card-footer
+{
+    max-width: 150px;
+    height: 200px;
+    text-align: center;
+    background-color: #efefef;
+}
+
+.custom-card-footer img
+{
+    max-width: 150px;
+    height: 100px;
+    position: relative;
+    top: 10%;
+}
+
+.custom-body small
+{
+    color: #fff;
+    font-size: 10px;
+}
+
 
 /* aside */
 
@@ -616,6 +650,8 @@ background: linear-gradient(140deg, rgba(245,17,17,1) 0%, rgba(70,5,5,1) 24%, rg
 {
     box-shadow: none !important;
 }
+
+
 
 
 
